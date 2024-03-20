@@ -20,9 +20,9 @@ A step-by-step series of examples that tell you how to get a development environ
 
 **For Windows Users:**
 
-1. Open Command Prompt and navigate to your project directory (`kredily`):
+1. Open Command Prompt and navigate to your project directory (`HRMS`):
     ```
-    cd path\to\kredily
+    cd path\to\HRMS
     ```
 2. Create the virtual environment:
     ```
@@ -39,9 +39,9 @@ A step-by-step series of examples that tell you how to get a development environ
 
 **For macOS (and Linux) Users:**
 
-1. Open Terminal and navigate to your project directory (assuming it's named `kredily`):
+1. Open Terminal and navigate to your project directory (assuming it's named `HRMS`):
     ```
-    cd path/to/kredily
+    cd path/to/HRMS
     ```
 2. Create the virtual environment:
     ```
@@ -60,7 +60,7 @@ A step-by-step series of examples that tell you how to get a development environ
 
 With the virtual environment activated, you can install the required dependencies by running:
 
- `cd kredily_hrms_proj`
+ `cd hrms_proj`
 
 Make sure to replace the path that contains `requirements.txt` which consists of the list of packages needed for the project.
 
@@ -82,7 +82,6 @@ Your server should be up and running on:
 The project consists of several key HTML templates, each serving a distinct purpose within the HRMS. Below is a brief overview of each template and its function:
 
 1. Home Page (`home.html`): The landing page of the HRMS, displaying a list of employees.
-
 2. Add Employee (`add_employee.html`): A form to add a new employee to the system.
 3. Delete Employee (`delete_employee.html`): A page to remove an existing employee from the HRMS.
 4. Employee Details (`employee_details.html`): Displays detailed information about each employee.
