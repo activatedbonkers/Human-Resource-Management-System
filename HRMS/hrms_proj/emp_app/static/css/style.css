@@ -1,0 +1,16 @@
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+h1 {
+    font-size: 60px !important;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 40px !important;
+    text-align: center;
+
+}
